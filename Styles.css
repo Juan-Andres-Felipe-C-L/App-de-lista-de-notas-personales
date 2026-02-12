@@ -1,0 +1,17 @@
+:root{
+    --Color1: black;
+    --Color2: white;
+    --Color3: blue;
+    --Font: sans-serif;
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+form{
+    background-color: var(--Color1);
+}
