@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="./Styles.css">
 </head>
 <body>
-    <h1>Mis Notas</h1>
+    <h1>Mis Notas Personales</h1>
     <form id="formulario">
-        <input type="text" placeholder="Título de la nota" required>
+        <input type="text" id="titulo" placeholder="Título de la nota" required>
         <textarea id="texto" placeholder="Escribe tu nota aquí" required></textarea>
-        <button onclick="agregarTarea()">Agregar nota</button>
+        <button class="submit" type="submit">Agregar Nota</button>
     </form>
-    <ul id="lista"></ul>
+    <div id="lista"></div>
     <script src="./Script.js"></script>
 </body>
 </html>

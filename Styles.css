@@ -12,6 +12,76 @@
     box-sizing: border-box;
 }
 
-form{
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: var(--Color1);
+    height: 100vh;
+    font-family: var(--Font);
+}
+
+h1{
+    color: var(--Color2);
+    font-size: 56px;
+}
+
+form{
+    background-color: var(--Color2);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input{
+    height: 10vh;
+    width: 45vw;
+    font-size: 40px;
+}
+
+textarea{
+    height: 25vh;
+    width: 45vw;
+    font-size: 40px;
+}
+
+.submit{
+    color: var(--Color1);
+    background-color: var(--Color3);
+    font-weight: bolder;
+    font-size: 30px;
+    border-color: var(--Color1);
+    border-radius: 5%;
+    height: 10vh;
+    width: 25vw;
+}
+
+#lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.nota {
+  background: grey;
+  padding: 10px;
+  width: 250px;
+  box-sizing: border-box;
+  border-radius: 5%;
+}
+
+.importante {
+  background-color: green;
+}
+
+.btnImportante {
+  background: var(--Color1);
+  margin-top: 5px;
+  margin-right: 5px;
+  color: var(--Color2);
 }
